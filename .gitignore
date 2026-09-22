@@ -1,5 +1,27 @@
-*
-!*/
-!*.c
-!*.md
-!.gitignore
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# macOS system file
+.DS_Store
+
+# Environment variables / secrets
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Packaging / build files
+build/
+dist/
+*.egg-info/
